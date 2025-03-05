@@ -7,7 +7,7 @@ This repository contains two scripts for setting up a **Kali Linux** environment
 - Installs essential packages and tools required for security research.
 - Installs and configures **Docker**.
 - Ensures required services like **Open VM Tools** and **Docker** are enabled.
-- Installs **Metasploit Framework**, **Nmap**, **Tor Browser** and **Snort**.
+- Installs **Metasploit Framework**, **Nmap**, **Tor Browser**, **Snort**, and **wordlists**.
 
 ### **2️⃣ setup_labsec.sh**
 - Downloads the **LabSec security lab** from Google Drive.
@@ -41,7 +41,7 @@ chmod +x setup_kali.sh setup_labsec.sh
 ### **Step 3: Run the Essential Setup Script**
 This script installs **all essential security tools**, Docker, and enables required services.
 ```bash
-sudo ./setup_lab.sh
+sudo ./setup_kali.sh
 ```
 
 ### **Step 4: Run the LabSec Setup Script**
@@ -53,9 +53,10 @@ sudo ./setup_labsec.sh
 ---
 
 ## 📦 Installed Packages & Tools
-The `setup_lab.sh` script installs:
+The `setup_kali.sh` script installs:
 - **System Utilities:** `htop`, `curl`, `vim`, `gedit`, `net-tools`
-- **Security Tools:** `nmap`, `metasploit-framework`
+- **Security Tools:** `nmap`, `metasploit-framework`, `snort`, `torbrowser-launcher`
+- **Wordlists:** Prepares `rockyou.txt` for use
 - **Docker & Dependencies**
 - **Open VM Tools** (for virtual environments like VMware & VirtualBox)
 
@@ -99,4 +100,3 @@ sudo docker stop <container_id>
 By running these scripts, your **Kali Linux** setup will be fully prepared with **security tools**, **Docker**, and the **LabSec environment**. 🚀
 
 Enjoy hacking responsibly! 🛡️
-
