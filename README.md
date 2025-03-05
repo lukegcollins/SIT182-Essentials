@@ -29,13 +29,13 @@ Before running the scripts, ensure you have:
 ### **Step 1: Clone the Repository (or Save the Scripts)**
 ```bash
 cd ~/Desktop
-wget https://your_repository_link/setup_lab.sh
-wget https://your_repository_link/setup_labsec.sh
+wget https://github.com/lukegcollins/SIT182-Essentials/blob/main/setup_kali.sh
+wget https://github.com/lukegcollins/SIT182-Essentials/blob/main/setup_labsec.sh
 ```
 
 ### **Step 2: Make Scripts Executable**
 ```bash
-chmod +x setup_lab.sh setup_labsec.sh
+chmod +x setup_kali.sh setup_labsec.sh
 ```
 
 ### **Step 3: Run the Essential Setup Script**
