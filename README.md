@@ -10,9 +10,11 @@ This repository contains two scripts for setting up a **Kali Linux** environment
 - Installs **Metasploit Framework**, **Nmap**, **Tor Browser**, **Snort**, and **wordlists**.
 
 ### **2️⃣ setup_labsec.sh**
+- All-in-one helper for task 4.1P.
 - Downloads the **LabSec security lab** from Google Drive.
 - Extracts the lab files.
 - Builds and runs the **LabSec** Docker container.
+- **Please wait until week 4 to run this.**
 
 ---
 
