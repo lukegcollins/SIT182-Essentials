@@ -26,11 +26,11 @@ Before running the scripts, ensure you have:
 
 ## 📥 Installation & Usage
 
-### **Step 1: Clone the Repository (or Save the Scripts)**
+### **Step 1: Download the Scripts**
 ```bash
 cd ~/Desktop
-wget https://github.com/lukegcollins/SIT182-Essentials/blob/main/setup_kali.sh
-wget https://github.com/lukegcollins/SIT182-Essentials/blob/main/setup_labsec.sh
+wget https://raw.githubusercontent.com/lukegcollins/SIT182-Essentials/main/setup_kali.sh
+wget https://raw.githubusercontent.com/lukegcollins/SIT182-Essentials/main/setup_labsec.sh
 ```
 
 ### **Step 2: Make Scripts Executable**
@@ -45,7 +45,7 @@ sudo ./setup_kali.sh
 ```
 
 ### **Step 4: Run the LabSec Setup Script**
-This script downloads the **LabSec security lab**, builds the Docker image, and runs it.
+This script downloads the **LabSec security lab**, builds the Docker image, and runs it. (Please wait until week 4's workshop to run this)
 ```bash
 sudo ./setup_labsec.sh
 ```
