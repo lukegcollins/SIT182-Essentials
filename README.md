@@ -3,11 +3,11 @@
 ## 📌 Overview
 This repository contains two scripts for setting up a **Kali Linux** environment with essential tools and configuring the **LabSec** security lab.
 
-### **1️⃣ setup_lab.sh**
+### **1️⃣ setup_kali.sh**
 - Installs essential packages and tools required for security research.
 - Installs and configures **Docker**.
 - Ensures required services like **Open VM Tools** and **Docker** are enabled.
-- Installs **Metasploit Framework** and **Nmap**.
+- Installs **Metasploit Framework**, **Nmap**, **Tor Browser** and **Snort**.
 
 ### **2️⃣ setup_labsec.sh**
 - Downloads the **LabSec security lab** from Google Drive.
